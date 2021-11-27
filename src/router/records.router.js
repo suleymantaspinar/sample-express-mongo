@@ -9,6 +9,8 @@ router.use("/", validateRecords);
 
 router.post('/', async (req, res, next) => {
   try {
+    console.log("1111");
+    console.log('Incoming request body', req.body);
     logger.info('Incoming request body', req.body);
     const records = await RecordService.getRecords(req.body);
     res.status(200).json({
