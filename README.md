@@ -19,10 +19,10 @@ Run tests:
 ```npm run test```
 
 # API Documentation
-```POST /api/records```   
+```POST /records```   
 
 ```
-curl --location --request POST 'http://localhost:5000/api/records' \
+curl --location --request POST 'http://localhost:5000/records' \
 --header 'Content-Type: application/json' \
 --data-raw '{
     "startDate":"2012-12-12",
