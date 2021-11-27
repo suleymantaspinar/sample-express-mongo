@@ -4,7 +4,7 @@ const app = require('./src/app.js');
 const logger = require('./src/logger')();
 const mongo = require("./src/mongo");
 
-const {NODE_PORT} = process.env||5000;
+const NODE_PORT = process.env.NODE_PORT;
 
 mongo.connect().then(() => {
   app.listen(NODE_PORT, () => {
