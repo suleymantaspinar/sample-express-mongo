@@ -29,6 +29,9 @@
     "shelljs": "^0.8.4",
     "supertest": "^6.1.6"
   },
+  "engines": {
+    "node": "16.x"
+  },
   "devDependencies": {
     "dotenv": "^8.2.0",
     "eslint": "^7.25.0",
