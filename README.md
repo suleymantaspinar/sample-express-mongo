@@ -2,6 +2,8 @@
 
 This is a sample REST service with mongodb and express.js. It fetches the filtered records from MongoDB.
 
+# Live Demo
+Click to see demo [Sample Express Mongo Heroku Link](https://sample-express-mongo.herokuapp.com/).
 # Usage
 Build the dockerfile
 ```docker build . -t sample-express-mongo```
