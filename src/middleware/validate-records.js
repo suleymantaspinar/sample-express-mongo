@@ -58,7 +58,6 @@ const validateRecords = function(req, res, next) {
       msg: 'Minimum count cant be greater than maximum count'
     });
   }
-  console.log("00000")
   next();
 };
 
